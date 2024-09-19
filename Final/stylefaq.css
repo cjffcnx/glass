@@ -1,0 +1,138 @@
+/* Your existing styles */
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.faq {
+    max-width: 600px;
+    margin: 20px auto;
+}
+body
+{
+    background-image: url(mygif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    z-index: -1;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav ul li a:hover {
+    font-size: 18px;
+    color: #ffc107; /* Change to your desired hover color */
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.answer {
+    color: #4CAF50; /* Green color for answers */
+}
+nav ul li a
+{
+  text-decoration:none;
+  color:white;
+  
+}
+header {
+    background-color: #5d3333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+    margin-bottom:5%;
+    
+}
+
+nav ul li {
+    margin-right: 20px;
+ 
+}
+
+/* Your existing styles */
+
+.faq {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.answer {
+    color: #4CAF50; /* Green color for answers */
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+.header a.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Adjust logo size if needed */
+.header a.logo img {
+    height: 40px; /* Set your desired height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Inside your existing styles.css or in the <style> tag in the head of your HTML */
+
+.faq {
+    margin-top: 20px;
+}
+
+.question {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #45a049;
+}

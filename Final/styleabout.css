@@ -1,0 +1,221 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+nav ul li a
+{
+  text-decoration:none;
+  color:white;
+  
+}
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  header {
+    background-color: #5d3333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+    margin-bottom:5%;
+    
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.animated-header {
+    animation: fadeInDown 1s ease-out;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-list li a:hover {
+    font-size: 18px;
+    color: #ffc107; /* Change to your desired hover color */
+}
+
+nav ul li {
+    margin-right: 20px;
+ 
+}
+.header a.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Adjust logo size if needed */
+.header a.logo img {
+    height: 40px; /* Set your desired height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url(mygif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    position: relative;
+    z-index: -1;
+    
+}
+.text {
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: flyIn 1.5s ease-in-out forwards; /* Animation properties */
+}
+
+@keyframes flyIn {
+    0% {
+        opacity: 0; /* Start with opacity 0 */
+        transform: translateY(-50px); /* Start position above its final position */
+    }
+    100% {
+        opacity: 1; /* End with opacity 1 */
+        transform: translateY(0); /* Final position */
+    }
+}
+
+.about-us {
+    background: linear-gradient(to right, white, #c87bf9); 
+    color: white;
+   
+    padding: 50px 0;
+    text-align: center;
+  
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.owner img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+#ownerImage {
+    transition: transform 0.3s ease; /* Transition effect for smooth scaling */
+}
+
+#ownerImage:hover {
+    transform: scale(1.2); /* Adjust the scaling factor as needed */
+}
+
+.text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.owner-name {
+    font-weight: bold;
+}
+
+/* Add any additional styling as needed */
+.location{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    /* border: 2px solid black; */
+    padding: 20px;
+
+    
+    
+
+  }
+
+  .text p
+  {
+    color:#7b024f;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial text shadow, adjust as needed */
+    animation: glow 1.5s infinite alternate; /* Animation properties */
+  }
+  @keyframes glow {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Initial text shadow */
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.8); /* Final text shadow, adjust as needed */
+    }
+}
+  
+  .location a
+  {
+    list-style: none;
+    cursor:pointer;
+    color:black;
+    text-decoration: none;
+  }
+
+  .location button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; /* Increased font size */
+    border-radius: 5%;
+    margin-bottom: 5vh;
+    background-color: rgb(204, 243, 204);
+    outline: 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+/* Button styles on hover */
+.location button:hover {
+    background-color: #4CAF50; /* Change to an exciting color */
+    transform: scale(1.1); /* Add a scale effect on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
