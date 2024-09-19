@@ -1,0 +1,113 @@
+header {
+    background-color: #5d3333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  
+}
+.header a.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Adjust logo size if needed */
+.header a.logo img {
+    height: 40px; /* Set your desired height */
+    width: auto; /* Maintain aspect ratio */
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-header {
+    animation: fadeInDown 1s ease-out;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-list li a:hover {
+    font-size: 18px;
+    color: #ffc107; /* Change to your desired hover color */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+    margin-bottom:5%;
+    
+}
+
+nav ul li {
+    margin-right: 20px;
+ 
+}
+
+/* Add styling as needed */
+#services {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.service-image {
+    width: 40%; /* Adjust the width as needed */
+}
+
+.service-image img {
+    width: 100%;
+    height: auto;
+}
+
+.service-description {
+    width: 55%; /* Adjust the width as needed */
+    padding-left: 3%;
+    padding-top: 8%;
+}
+
+/* Add styling for caption, h3, and p as needed */
+.caption {
+    font-style: italic;
+    color: #888;
+}
+
+h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
